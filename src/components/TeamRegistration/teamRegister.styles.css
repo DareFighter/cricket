@@ -1,0 +1,45 @@
+.team-register-container {
+  display: flex;
+  justify-content: center;
+}
+
+.team-register-buttons {
+  display: flex;
+  justify-content: end;
+}
+
+.team-register-button {
+  padding: 7px 32px;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  margin-left: 5px;
+  box-shadow: 4px 4px 4px gray;
+}
+
+.match-register-buttons {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+
+.match-register-button {
+  padding: 7px 32px;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  margin-left: 5px;
+  box-shadow: 4px 4px 4px gray;
+}
+
+.match-register-button-back {
+  padding: 7px 32px;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  margin-left: 5px;
+  box-shadow: 4px 4px 4px gray;
+}
