@@ -342,11 +342,11 @@ app.delete("/signup/:id", async (req, res) => {
 mongoose.set("strictQuery", true);
 mongoose
   .connect(
-    "mongodb+srv://suhas:suhas@cluster0.tswcfrp.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://shreyas:shreyas@ipl.wvrhpsl.mongodb.net/?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      dbName: "EmployeeDetails",
+      dbName: "ipl",
     }
   )
   .then(() => {
